@@ -1485,7 +1485,7 @@
 
 #Accueil .intervention-area .one-card {
   width: 18em;
-  height: 34em;
+  height: 36em;
   margin: 2vw 5vw 5vw 5vw;
   border: 0.15em var(--color0) solid;
   border-radius: 1em;
@@ -2136,7 +2136,11 @@
   }
   #Accueil .intervention-area .one-card {
     width: 80%;
-    height: 25em;
+    height: 30em;
+  }
+  #Accueil .intervention-area .one-card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
   #Accueil .software {
     display: -webkit-box;
@@ -2168,6 +2172,9 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 0%;
+    -webkit-box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
   #Accueil .AccueilBigProjectsSection .One_Project_In_Home .image_container:hover {
     background-size: 100%;
@@ -2516,6 +2523,9 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 0%;
+    -webkit-box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
   #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .image_container:hover {
     background-size: 100%;
@@ -3237,7 +3247,7 @@
 }
 
 @media all and (max-width: 1000px) {
-  #Traveaux .Traveaux-Header {
+  #Infos .Traveaux-Header {
     width: 100%;
     height: auto;
     display: -webkit-box;
@@ -3256,7 +3266,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #Traveaux .Traveaux-Header .visualization-projects {
+  #Infos .Traveaux-Header .visualization-projects {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 900;
@@ -3264,80 +3274,83 @@
     padding-bottom: 1em;
     margin-top: 2em;
   }
-  #Traveaux .Traveaux-Header .visualization-projects-description {
+  #Infos .Traveaux-Header .visualization-projects-description {
     width: 87%;
     font-family: 'Montserrat', sans-serif;
     font-size: .8em;
     font-weight: 700;
     margin-bottom: 3em;
   }
-  #Traveaux .AccueilBigProjectsSection {
+  #Infos .AccueilBigProjectsSection {
     width: 100%;
     min-height: auto;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home {
     min-height: 36em;
     height: auto;
     grid-gap: 0em;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .image_container {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .image_container {
     width: 100%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 0%;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .image_container:hover {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .image_container:hover {
     background-size: 100%;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .info_container .title {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .info_container .title {
     font-size: 1.3em;
     width: 90%;
     -webkit-transform: scale(1);
             transform: scale(1);
     margin-bottom: .5em;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .info_container .title .bar {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .info_container .title .bar {
     bottom: -0.3em;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .info_container .description {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .info_container .description {
     margin-top: 1em;
     font-size: .7em;
     width: 90%;
   }
-  #Traveaux .AccueilBigProjectsSection .One_Project_In_Home .info_container .description .the_link {
+  #Infos .AccueilBigProjectsSection .One_Project_In_Home .info_container .description .the_link {
     font-size: 1.2em;
   }
-  #Traveaux .AccueilBigProjectsSection .right {
+  #Infos .AccueilBigProjectsSection .right {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
   }
-  #Traveaux .AccueilBigProjectsSection .right .image_container {
+  #Infos .AccueilBigProjectsSection .right .image_container {
     -ms-grid-column: 1;
     grid-column: 1 / 1;
     -ms-grid-row: 1;
     grid-row: 1 / 1;
   }
-  #Traveaux .AccueilBigProjectsSection .right .info_container {
+  #Infos .AccueilBigProjectsSection .right .info_container {
     -ms-grid-column: 1;
     grid-column: 1 / 1;
     -ms-grid-row: 2;
     grid-row: 2 / 2;
   }
-  #Traveaux .AccueilBigProjectsSection .left {
+  #Infos .AccueilBigProjectsSection .left {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
   }
-  #Traveaux .AccueilBigProjectsSection .left .image_container {
+  #Infos .AccueilBigProjectsSection .left .image_container {
     -ms-grid-column: 1;
     grid-column: 1 / 1;
     -ms-grid-row: 1;
     grid-row: 1 / 1;
   }
-  #Traveaux .AccueilBigProjectsSection .left .info_container {
+  #Infos .AccueilBigProjectsSection .left .info_container {
     -ms-grid-column: 1;
     grid-column: 1 / 1;
     -ms-grid-row: 2;

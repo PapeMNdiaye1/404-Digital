@@ -546,18 +546,23 @@ function TheFooter({ }) {
             </p>
 
             <nav className='menu_elemant_container'>
+
                 <Link className='menu_elemant' to={'/'} onClick={onClickOnTab}>
                     Accueil
                 </Link>
+
                 <Link className='menu_elemant' to={'/Traveaux'} onClick={onClickOnTab}>
                     Traveaux
                 </Link>
+
                 <Link className='menu_elemant' to={'/Service'} onClick={onClickOnTab}>
                     Services
                 </Link>
+
                 <Link className='menu_elemant' to={'/ARTICLES'} onClick={onClickOnTab}>
                     Articles
                 </Link>
+
                 <div className='menu_elemant'></div>
 
             </nav>
