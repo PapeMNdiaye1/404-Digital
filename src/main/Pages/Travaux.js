@@ -20,7 +20,7 @@ import ImageProjectB1 from '../Style/Images/Project/City-1.jpg';
 
 
 
-function Traveaux() {
+function Travaux() {
 
     useEffect(() => {
 
@@ -45,8 +45,8 @@ function Traveaux() {
 
 
     return (
-        <div id="Traveaux">
-            <section className='Traveaux-Header'>
+        <div id="Travaux">
+            <section className='Travaux-Header'>
                 <h1 className='visualization-projects'>
                     Nos Réalisations
                 </h1>
@@ -102,4 +102,4 @@ function Traveaux() {
     );
 }
 
-export default Traveaux;
+export default Travaux;

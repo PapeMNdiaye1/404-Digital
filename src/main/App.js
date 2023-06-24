@@ -6,7 +6,7 @@ import TopBare from './TopBare';
 import { Accueil } from './Pages/Accueil';
 import { TheFooter } from './Pages/Accueil';
 import Articles from './Pages/Articles';
-import Traveaux from './Pages/Traveaux';
+import Travaux from './Pages/Travaux';
 import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 
@@ -17,6 +17,7 @@ import Touba from './Pages/Projects/Touba';
 import ProduitsA from './Pages/Projects/ProduitsA';
 import Articles_1 from './Pages/Projects/Articles_1';
 import Articles_2 from './Pages/Projects/Articles_2';
+import Articles_3 from './Pages/Projects/Articles_3';
 import City1 from './Pages/Projects/Cité';
 import MSAD from './Pages/Projects/MSAD';
 import ProduitsB from './Pages/Projects/ProduitsB';
@@ -56,7 +57,7 @@ function App() {
             <Route exact path="/"
               element={<Accueil GetImageToApp={GetImage} />}
             />
-            <Route exact path="/Traveaux" element={<Traveaux />} />
+            <Route exact path="/Travaux" element={<Travaux />} />
             <Route exact path="/Service" element={<Service />} />
             <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/ARTICLES" element={<Articles
@@ -67,8 +68,9 @@ function App() {
             <Route exact path="/Hangar1" element={<Hangar1 />} />
             <Route exact path="/Touba" element={<Touba />} />
             <Route exact path="/ProduitsA" element={<ProduitsA />} />
-            <Route exact path="/Articles_1" element={<Articles_1 />} />
-            <Route exact path="/Articles_2" element={<Articles_2 />} />
+            <Route exact path="/FORAFRICC_2023" element={<Articles_1 />} />
+            <Route exact path="/MSDAD-de-THIES" element={<Articles_2 />} />
+            <Route exact path="/Articles_3" element={<Articles_3 />} />
             <Route exact path="/City1" element={<City1 />} />
             <Route exact path="/MSAD" element={<MSAD />} />
             <Route exact path="/ProduitsB" element={<ProduitsB />} />
