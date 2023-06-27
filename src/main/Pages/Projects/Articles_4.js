@@ -1,15 +1,16 @@
 import { React, useEffect, useState, Fragment } from 'react';
 
 
-import ImageProjectC1 from '../../Style/Images/Project/Hangar-1.jpg';
-import ImageProjectC2 from '../../Style/Images/Project/Hangar-2.jpg';
-import ImageProjectC3 from '../../Style/Images/Project/Hangar-3.jpg';
-import ImageProjectC4 from '../../Style/Images/Project/Hangar-4.jpg';
+import ImageProjectC1 from '../../Style/Images/Infos/Event-4.jpg';
+// import ImageProjectC1 from '../../Style/Images/Infos/Event-1.jpg';
+// import ImageProjectC3 from '../../Style/Images/Infos/Event-21.jpg';
+// import ImageProjectC4 from '../../Style/Images/Infos/Event-22.jpg';
+// import ImageProjectC5 from '../../Style/Images/Infos/Event-23.jpg';
+// import ImageProjectC6 from '../../Style/Images/Infos/Event-24.jpg';
 
 
 
-function Hangar_1({ }) {
-
+function Pharmacie1({ }) {
     const [TheImageContainer, setTheImageContainer] = useState(false);
     const [TheImageInTheContainer, setTheImageInTheContainer] = useState(ImageProjectC1);
 
@@ -17,7 +18,6 @@ function Hangar_1({ }) {
 
         let Page_slider = document.querySelector('.page_title_slider')
         Page_slider.style.opacity = `0`
-
 
         let AccueilContainer = document.querySelector(".App_container")
         AccueilContainer.scrollTop = 0;
@@ -57,33 +57,36 @@ function Hangar_1({ }) {
                     </div>
                 </div>
             }
-
-            <div className='Hangar_1_container'>
-
+            <div className='Article_4'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Maquette Hangar Photovoltaïque
-                    </h1>
+                        Fix Challenge                  </h1>
                     <h3 className='project_description'>
-                        | 09 Juin, 2021 |
+                        | 17 Mai , 2023 |
                     </h3>
                     <p>
-                        Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques.                                       </p>
+                        Le Musée Théodore Monod a accueilli la restitution des résidences crea.sen, organisée en collaboration avec l'@ueausenegal.                        </p>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt=' Maquette Hangar Photovoltaïque - 1' />
+                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 5' />
+                    </div>
+                    {/* <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='  Pharmacie Design - 3' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='  Pharmacie Design - 4' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt=' Maquette Hangar Photovoltaïque - 2' />
-                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt=' Maquette Hangar Photovoltaïque - 3' />
+                        <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt=' Maquette Hangar Photovoltaïque - 4' />
-                    </div>
+                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='  Pharmacie Design - 3' />
+                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt='  Pharmacie Design - 4' />
+                    </div> */}
                 </div>
             </div>
-        </Fragment >
+        </Fragment>
     );
-
 }
 
-export default Hangar_1;
+
+
+
+export default Pharmacie1;

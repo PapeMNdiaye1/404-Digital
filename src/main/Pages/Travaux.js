@@ -60,7 +60,7 @@ function Travaux() {
                     color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'left'} />
 
                 <OneBigProject title={'Expériences de réalité virtuelle'} image={ImageProjectG1}
-                    description={"Expériences de réalité virtuelle réalisées pour la M.S.A.D de Thiès. La réalité Augmentée favorise l'implication des visiteurs et leur offre une expérience inoubliable. Le contenu de réalité augmentée peut ajouter de la valeur à n'importe quel musée ou art, offrant plusieurs solutions interactives qui offrent différentes façons de divertir les gens et de créer des opportunités d'engagement enrichissantes. Le moyen le plus simple consiste à utiliser la RA pour ajouter des explications à ce que les visiteurs observent."}
+                    description={"Expériences de réalité virtuelle réalisées pour la M.S.A.D de Thiès. La réalité Augmentée favorise l'implication des visiteurs et leur offre une expérience inoubliable..."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={2} link={'/MSAD'} side={'right'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/MSAT-WebSite/'} />
 
                 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL1}

@@ -146,6 +146,8 @@
     }
 
     //!#####################################################################
+
+
     .archviz_presantation {
         height: 25em;
         width: 100%;
@@ -393,13 +395,17 @@
 
                     .the_link {
                         margin-top: 1em;
-                        font-size: .71em;
+                        font-size: .81em;
                         text-decoration: none;
                         padding: .3em;
                         border-radius: .2em;
+                        box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+                        border: .1em solid #86c5e5;
 
                         &:hover {
                             transform: scale(1.1);
+                            background-color: #86c5e5;
+                            box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
                         }
 
                         ion-icon {
@@ -476,9 +482,13 @@
             color: var(--color0);
             border: .1em solid #f1f1f1;
             border-radius: .3em;
+            box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+            border: .1em solid #86c5e5;
 
             &:hover {
                 transform: scale(1.1);
+                background-color: #86c5e5;
+                box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
             }
 
             ion-icon {
@@ -636,6 +646,80 @@
         }
     }
 
+    .equipe_presantation {
+        height: auto;
+        width: 100%;
+        @include cent();
+        flex-wrap: wrap;
+        color: var(--color0);
+        // background-color: #cfab8b;
+
+        .equipe {
+            width: 80%;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 1.8em;
+        }
+
+        .equipe_big_container {
+            width: 100%;
+            @include cent();
+            flex-wrap: wrap;
+
+            .members {
+                // background-color: #f1f1f1;
+                width: 15em;
+                height: auto;
+                margin: 3em;
+                @include cent();
+                flex-wrap: wrap;
+
+                .pic {
+                    width: 7em;
+                    height: 7em;
+                    background-image: url('./Images/Extra/Profil-3.jpg');
+                    background-size: 110%;
+                    border-radius: 50%;
+                    background-position: center;
+                    margin-bottom: 1em;
+                }
+
+                .pic1 {
+                    background-image: url('./Images/Extra/Profil-4.jpg');
+                }
+
+                .pic2 {
+                    background-image: url('./Images/Extra/Profil-2.jpg');
+                }
+
+                .pic4 {
+                    background-image: url('./Images/Extra/Profil-1.jpg');
+                }
+
+                em {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 900;
+                    font-size: 1em;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+
+
+                    font-family: 'Montserrat',
+                        sans-serif;
+                    margin-top: 1em;
+                    font-size: .7em;
+                    font-weight: 200;
+                }
+            }
+        }
+
+    }
+
+
     //!#####################################################################
 }
 
@@ -717,7 +801,7 @@
                 height: 30em;
 
                 &:hover {
-                    transform: scale(1.03);
+                    transform: scale(1.03)
                 }
             }
 
@@ -851,6 +935,78 @@
                     img {
                         transform: scale(1);
                     }
+                }
+            }
+        }
+
+        //!#####################################################################
+        .equipe_presantation {
+            //   height: auto;
+            //   width: 100%;
+            //   @include cent();
+            //   flex-wrap: wrap;
+            //   color: var(--color0);
+            // background-color: #cfab8b;
+
+            .equipe {
+                //   width: 80%;
+                //   font-family: 'Montserrat', sans-serif;
+                //   font-weight: 900;
+                //   font-size: 1.8em;
+                @include cent();
+            }
+
+            .equipe_big_container {
+                //    width: 100%;
+                //    @include cent();
+                //    flex-wrap: wrap;
+
+                .members {
+                    // background-color: #f1f1f1;
+                    //    width: 15em;
+                    //    height: auto;
+                    //    margin: 3em;
+                    //    @include cent();
+                    //    flex-wrap: wrap;
+
+                    //    .pic {
+                    //        width: 7em;
+                    //        height: 7em;
+                    //        background-image: url('./Images/Extra/Profil-3.jpg');
+                    //        background-size: 110%;
+                    //        border-radius: 50%;
+                    //        background-position: center;
+                    //        margin-bottom: 1em;
+                    //    }
+
+                    //    .pic1 {
+                    //        background-image: url('./Images/Extra/Profil-4.jpg');
+                    //    }
+
+                    //    .pic2 {
+                    //        background-image: url('./Images/Extra/Profil-2.jpg');
+                    //    }
+
+                    //    .pic4 {
+                    //        background-image: url('./Images/Extra/Profil-1.jpg');
+                    //    }
+
+                    //    em {
+                    //        font-family: 'Montserrat', sans-serif;
+                    //        font-weight: 900;
+                    //        font-size: 1em;
+                    //    }
+
+                    //    p {
+                    //        text-align: center;
+
+
+                    //        font-family: 'Montserrat',
+                    //            sans-serif;
+                    //        margin-top: 1em;
+                    //        font-size: .7em;
+                    //        font-weight: 200;
+                    //    }
                 }
             }
         }

@@ -10,7 +10,9 @@ import ImageProjectC2 from '../Style/Images/Project/Interior-1-2.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 
-import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
+// import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
+import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
+
 
 import ImageProjectM1 from '../Style/Images/Project/ProductA-1.jpg';
 
@@ -68,8 +70,7 @@ function Accueil({ GetImageToApp }) {
                     Qui sommes-nous ?
                 </h2>
                 <p>
-
-                    404 digital est une startup novatrice dans le domaine de la réalité virtuelle (RV), cherchant à repousser les limites de l'immersion et à créer des expériences virtuelles inoubliables. En s'appuyant sur une équipe de passionnés et d'experts en RV, nous visons à révolutionner la façon dont nous interagissons avec le monde numérique.
+                    404 digital est une Start-up novatrice dans le domaine de la réalité virtuelle et augmentée repoussant les limites de l'immersion tout en proposant des solutions pour le développement du secteur numérique en Afrique.
                 </p>
 
                 <div className='network_container'>
@@ -113,7 +114,6 @@ function Accueil({ GetImageToApp }) {
                     <p>
                         La visualisation 3D est une méthode puissante et polyvalente qui présente de nombreux avantages pour différentes industries. Elle permet de représenter graphiquement des objets, des scènes ou des données dans un environnement tridimensionnel, offrant ainsi une expérience visuelle immersive et réaliste.
                     </p>
-
                 </div>
                 <div className='one-card'>
                     <div className='card-cover card-cover-3'>
@@ -159,7 +159,6 @@ function Accueil({ GetImageToApp }) {
                     description={`Dans le cadre du FORAFRICC organisé par la Fondation Youssou Ndour pour les industries culturelles et créatives, le pôle EUNIC Sénégal organisera un panel avec : 404 Digital`}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/FORAFRICC_2023'} side={'left'} />
 
-
             </section>
 
             <section className='galerie_presantation'>
@@ -168,44 +167,82 @@ function Accueil({ GetImageToApp }) {
                 </Link>
             </section>
 
+            <section className='equipe_presantation'>
+                <h2 className='equipe' >
+                    Members Fondateurs
+                </h2>
+                <div className='equipe_big_container'>
+                    <div className='members members-A'>
+                        <div className='pic pic1'>
+
+                        </div>
+                        <em>
+                            Pape Momar Ndiaye
+                        </em>   <br />
+                        <p>
+                            Chief Technical Officer( CTO) : Manœuvre le déploiement technologique au sein de la start-up tout en analysant les risques et les opportunités de tous les projets, en même temps gère toute la partie Web et Web XR.          </p>
+                    </div>
+                    <div className='members members-A'>
+                        <div className='pic pic2'>
+
+                        </div>
+                        <em>
+                            Mouhamadou Moustapha Thiam
+                        </em>   <br />
+                        <p>
+                            Chief Marketing & Commercial ( CMC) : Établir les stratégies commerciales au sein de la boîte mais aussi de la transformation digitale (E-marketing).          </p>
+                    </div>
+                    <div className='members members-A'>
+                        <div className='pic pic3'>
+                        </div>
+                        <em>
+                            Abdoulaye Ba
+                        </em>   <br />
+                        <p>
+                            Project Manager ( COP) : Assurer la bonne coordination des projets au sein de l'entreprise, gère la gestion administrative et juridique mais aussi trouvent de potentiels partenaires.    </p>
+                    </div>
+                    <div className='members members-A'>
+                        <div className='pic pic4'>
+
+                        </div>
+                        <em>
+                            Gora Séne
+                        </em>   <br />
+                        <p>
+                            Product & Design Manager (CPO) : Manœuvre développement des produits au niveau de la start-up et chapeaute aussi les campagnes de communication des produits.    </p>
+                    </div>
+                </div>
+            </section>
+
             <section className='AccueilBigProjectsSection'>
-
-                <OneBigProject title={'Design de Maison Moderne'} image={ImageProjectA1}
-                    description={"Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={2} side={'right'} The_Experience={false} link={'/SmallHouse1'} />
-
+                <OneBigProject title={'Villa Saly'} image={ImageProjectI2}
+                    description={"Des designs Modernes, épurés, etc…. nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'right'} />
 
                 <OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
                     description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={3} link={'/City1'} side={'left'} The_Experience={false} />
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={2} link={'/City1'} side={'left'} The_Experience={false} />
 
                 <OneBigProject title={'Visualisaoions 3D De Produits'} image={ImageProjectM1}
                     description={"Cette technique offre de nombreux avantages pour différentes industries, en leur permettant de mieux visualiser, de présenter et de commercialiser leurs produits."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={4} link={'/ProduitsA'} side={'right'} The_Experience={false} />
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={3} link={'/ProduitsA'} side={'right'} The_Experience={false} />
 
                 <OneBigProject title={'Décoration Intérieur'} image={ImageProjectC2}
                     description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={5} side={'left'} link={'/Interior1'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={4} side={'left'} link={'/Interior1'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={6} The_Experience={false} link={'/Hangar1'} side={'right'} />
-
-                <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL2}
-                    description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={7} side={'left'} link={'/VillaTerangaAlAmin'} The_Experience={true} The_Experience_Link={'https://archviz-villa-teranga-al-amine.netlify.app/'} />
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={5} The_Experience={false} link={'/Hangar1'} side={'right'} />
 
             </section>
-
-
-
-
 
             <section className='galerie_presantation'>
                 <Link className='nos_réalisations' to={'./Travaux'}>
                     Nos Réalisations   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </Link>
             </section>
+
         </div >
     );
 }
@@ -288,49 +325,6 @@ function Slider({ giveSliderKey, title, date, theKey }) {
     );
 }
 //!###############################################################
-// function TheGallery({ GetImageOnAccueil }) {
-
-//     const onClickOnImage = (theimage, title, date, link) => {
-//         GetImageOnAccueil(theimage, title, date, link);
-//     }
-
-//     return (
-//         <div className="the_galerie_container">
-
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL6} title={"Villa Al Amin"} date={'26 Janvier, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB2} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
-
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Touba'} image={ImageProjectD1} title={'Maquette de la Grande Mosquée de Touba'} date={'09 Mars, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/MSDAD-de-THIES'} image={ImageProjectK1} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/MSDAD-de-THIES'} image={ImageProjectK5} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC4} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa'} image={ImageProjectH3} title={'Immeuble Thiès Grand Standing'} date={'06 Juin, 2012'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC2} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL3} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/MSAD'} image={ImageProjectG2} title={'Manufacture des Arts Décoratifs de Thiés'} date={'03 Septembre, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE2} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB9} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/SmallHouse1'} image={ImageProjectA1} title={'Design de Maison Moderne'} date={'15 avril, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Hangar1'} image={ImageProjectF3} title={'Maquette Hangar Photovoltaïque'} date={'29 Juin, 2021'} />
-
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL4} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL2} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/MSDAD-de-THIES'} image={ImageProjectK2} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-//             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC1} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-
-//         </div>
-//     );
-// }
-//!###############################################################
 function OneGalerieElement({ giveImageId, title, theKey, image, date, link }) {
 
     const clickOnImage = (e) => {
@@ -401,7 +395,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             <Link className='the_link'
                                 style={{
                                     color: textcolor,
-                                    border: `.1em solid ${textcolor}`
+                                    // border: `.1em solid ${textcolor}`
                                 }} to={link}>
                                 Voir plus  <ion-icon name="arrow-forward-outline"></ion-icon>
                             </Link>
@@ -409,7 +403,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                                 <a
                                     style={{
                                         color: textcolor,
-                                        border: `.1em solid ${textcolor}`
+                                        // border: `.1em solid ${textcolor}`
                                     }}
                                     className='the_link' href={The_Experience_Link} target="_blank" >
 
@@ -455,7 +449,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             <Link className='the_link'
                                 style={{
                                     color: textcolor,
-                                    border: `.1em solid ${textcolor}`
+                                    // border: `.1em solid ${textcolor}`
                                 }} to={link}>
 
                                 Voir plus  <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -464,7 +458,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                                 <a
                                     style={{
                                         color: textcolor,
-                                        border: `.1em solid ${textcolor}`
+                                        // border: `.1em solid ${textcolor}`
                                     }}
                                     className='the_link' href={The_Experience_Link} target="_blank" >
 

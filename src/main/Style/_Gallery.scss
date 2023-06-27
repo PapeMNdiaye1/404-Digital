@@ -70,13 +70,17 @@
 
                     .the_link {
                         margin-top: 1em;
-                        font-size: .71em;
+                        font-size: .81em;
                         text-decoration: none;
                         padding: .3em;
                         border-radius: .2em;
+                        box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+                        border: .1em solid #86c5e5;
 
                         &:hover {
                             transform: scale(1.1);
+                            background-color: #86c5e5;
+                            box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
                         }
 
                         ion-icon {

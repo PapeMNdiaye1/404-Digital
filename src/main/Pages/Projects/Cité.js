@@ -1,6 +1,7 @@
 import { React, useEffect, useState, Fragment } from 'react';
 
 
+import ImageProjectC0 from '../../Style/Images/Project/City-0.jpg';
 import ImageProjectC1 from '../../Style/Images/Project/City-1.jpg';
 import ImageProjectC2 from '../../Style/Images/Project/City-2.jpg';
 import ImageProjectC3 from '../../Style/Images/Project/City-3.jpg';
@@ -72,14 +73,14 @@ function City1({ }) {
                         Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs.
                     </p>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC9} width='100%' alt='Design de Maison Moderne - 9' />
+                        <img onClick={displayImage} src={ImageProjectC0} width='100%' alt='Design de Maison Moderne - 0' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC5} width='47%' alt='Design de Maison Moderne - 5' />
                         <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='Design de Maison Moderne - 6' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='Design de Maison Moderne - 2' />
+                        <img onClick={displayImage} src={ImageProjectC9} width='100%' alt='Design de Maison Moderne - 9' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='Design de Maison Moderne - 3' />
@@ -91,6 +92,9 @@ function City1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC7} width='47%' alt='Design de Maison Moderne - 7' />
                         <img onClick={displayImage} src={ImageProjectC8} width='47%' alt='Design de Maison Moderne - 8' />
+                    </div>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='Design de Maison Moderne - 2' />
                     </div>
                 </div>
             </div>

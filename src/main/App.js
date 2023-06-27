@@ -18,6 +18,7 @@ import ProduitsA from './Pages/Projects/ProduitsA';
 import Articles_1 from './Pages/Projects/Articles_1';
 import Articles_2 from './Pages/Projects/Articles_2';
 import Articles_3 from './Pages/Projects/Articles_3';
+import Articles_4 from './Pages/Projects/Articles_4';
 import City1 from './Pages/Projects/Cité';
 import MSAD from './Pages/Projects/MSAD';
 import ProduitsB from './Pages/Projects/ProduitsB';
@@ -71,6 +72,7 @@ function App() {
             <Route exact path="/FORAFRICC_2023" element={<Articles_1 />} />
             <Route exact path="/MSDAD-de-THIES" element={<Articles_2 />} />
             <Route exact path="/Articles_3" element={<Articles_3 />} />
+            <Route exact path="/Articles_4" element={<Articles_4 />} />
             <Route exact path="/City1" element={<City1 />} />
             <Route exact path="/MSAD" element={<MSAD />} />
             <Route exact path="/ProduitsB" element={<ProduitsB />} />

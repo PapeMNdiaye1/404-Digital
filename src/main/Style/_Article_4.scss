@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.Villa_B_container {
+.Article_4 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, auto);
@@ -19,30 +19,6 @@
         grid-template-rows: repeat(10, auto);
         grid-template-columns: 1fr;
         padding-bottom: 2em;
-
-        a {
-            margin-bottom: 2em;
-            font-family: 'Montserrat', sans-serif;
-            font-size: .8em;
-            font-weight: 800;
-            width: 12em;
-            height: 2em;
-            @include cent();
-            border: .1em solid #000;
-            border-radius: .3em;
-            text-decoration: none;
-            color: var(--colorX);
-
-            &:hover {
-                transform: scale(1.02);
-            }
-
-            ion-icon {
-                font-size: 1.2em;
-                // bottom: -.1em;
-            }
-
-        }
 
         .project_title {
             font-family: 'Montserrat', sans-serif;
@@ -68,18 +44,6 @@
             cursor: pointer;
             display: flex;
             justify-content: space-between;
-
-            img {
-                transition-duration: .3s;
-                transform: scale(1);
-                border-radius: 1em;
-
-                &:hover {
-                    box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
-                    transform: scale(1.03);
-                }
-
-            }
         }
 
         p {
@@ -99,14 +63,11 @@
 @media all and (max-width: 1000px) {
 
 
-    .Villa_B_container {
+    .Article_4 {
         padding-left: 5vw;
         padding-right: 0vw;
 
         .project_display {
-
-
-
             .project_title {
                 font-size: 1.5em;
             }
@@ -124,8 +85,5 @@
                 width: 80vw;
             }
         }
-
-
     }
-
 }

@@ -26,7 +26,6 @@ function Articles() {
         }, 1500);
 
         return () => {
-
         }
     }, []);
 
@@ -46,9 +45,9 @@ function Articles() {
                     description={"Dans le cadre du FORAFRICC organisé par la Fondation Youssou Ndour pour les industries culturelles et créatives, le pôle EUNIC Sénégal organisera un panel avec : 404 Digital  "}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={3} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/FORAFRICC_2023'} side={'right'} />
 
-                <OneBigProject title={'Villa Saly'} image={ImageProject_3}
+                {/* <OneBigProject title={'Fix Challenge'} image={ImageProject_3}
                     description={"Des designs Modernes, épurés, etc…. nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
-                    color={'#000'} textcolor={'#f1f1f1'} theKey={4} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/FORAFRICC_2023'} side={'left'} />
+                    color={'#000'} textcolor={'#f1f1f1'} theKey={4} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Articles_4'} side={'left'} /> */}
 
             </section>
         </div>
