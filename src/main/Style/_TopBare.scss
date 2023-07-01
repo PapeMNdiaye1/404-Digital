@@ -237,9 +237,13 @@
 @media all and (max-width: 1000px) {
     #Top-Bare {
         .logo-container {
-            left: 6vw;
+            top: .5em;
+            left: 10vw;
             margin-left: .5em;
             transform: scale(1.6);
+            width: 6em;
+            height: 3em;
+
         }
 
         .page_title {
