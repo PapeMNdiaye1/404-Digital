@@ -206,6 +206,32 @@
 @media all and (max-width: 1000px) {
 
     #Services {
+
+        .Services-Header {
+            width: 100%;
+            height: auto;
+            @include cent();
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .visualization-projects {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5em;
+                font-weight: 900;
+                width: 87%;
+                padding-bottom: 1em;
+                margin-top: 2em;
+            }
+
+            .visualization-projects-description {
+                width: 87%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: .8em;
+                font-weight: 700;
+                margin-bottom: 3em;
+            }
+        }
+
         .one_service {
             width: calc(100% - 4vw);
             padding-left: 2vw;
