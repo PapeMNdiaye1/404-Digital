@@ -466,10 +466,11 @@
 
     //!#####################################################################
     .galerie_presantation {
-        height: 15em;
+        height: 5em;
         width: 100%;
         @include cent();
         flex-wrap: wrap;
+        margin-bottom: 5em;
 
         .nos_réalisations {
             width: auto;
@@ -479,7 +480,6 @@
             font-size: .8em;
             text-decoration: none;
             color: var(--color0);
-            border: .1em solid #f1f1f1;
             border-radius: .3em;
             box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
             border: .1em solid #86c5e5;
@@ -838,8 +838,6 @@
                     background-repeat: no-repeat;
                     box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
 
-
-
                     &:hover {
                         background-size: 100%;
                     }
@@ -865,6 +863,8 @@
 
                         .the_link {
                             font-size: 1.2em;
+                            box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+                            border: .1em solid #86c5e5;
                         }
                     }
                 }
@@ -934,7 +934,9 @@
             text-align: center;
 
             .equipe {
+                width: 100%;
                 @include cent();
+                font-size: 1.3em;
             }
 
             .equipe_big_container {
