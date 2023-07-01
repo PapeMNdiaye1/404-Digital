@@ -55,6 +55,7 @@ function Travaux() {
 
             </section>
             <section className='AccueilBigProjectsSection'>
+
                 <OneBigProject title={'Villa Saly'} image={ImageProjectI2}
                     description={"Des designs Modernes, épurés, etc…. nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'left'} />
@@ -72,7 +73,7 @@ function Travaux() {
                     description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces.'}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={4} link={'/Interior1'} side={'right'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
-                <OneBigProject title={`Visualisaoions De Produits Produit De Beauté`} image={ImageProjectN1}
+                <OneBigProject title={`Visualisations De Produits Produit De Beauté`} image={ImageProjectN1}
                     description={"Mise en avant de produit à travers des supports modernes. branding , Pub , Animations..."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={5} link={'/ProduitsB'} side={'left'} The_Experience={false} />
 
@@ -84,7 +85,7 @@ function Travaux() {
                     description={"Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={7} link={'/SmallHouse1'} side={'left'} The_Experience={false} />
 
-                <OneBigProject title={'Visualisaoions 3D De Produits'} image={ImageProjectM1}
+                <OneBigProject title={'Visualisations 3D De Produits'} image={ImageProjectM1}
                     description={"Cette technique offre de nombreux avantages pour différentes industries, en leur permettant de mieux visualiser, de présenter et de commercialiser leurs produits."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={8} link={'/ProduitsA'} side={'right'} The_Experience={false} />
 
@@ -95,7 +96,6 @@ function Travaux() {
                 <OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
                     description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={10} link={'/City1'} side={'right'} The_Experience={false} />
-
 
             </section>
         </div>

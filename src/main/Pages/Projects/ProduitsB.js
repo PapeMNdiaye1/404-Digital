@@ -59,7 +59,7 @@ function SmallHouse1({ }) {
             <div className='Villa_A_container'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Visualisaoions Tapie De Souris Gamer(Wraptor Gaming)
+                        Visualisations Tapie De Souris Gamer(Wraptor Gaming)
                     </h1>
                     <h3 className='project_description'>
                         | 23 Décembre, 2022 |

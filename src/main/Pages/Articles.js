@@ -34,7 +34,7 @@ function Articles() {
             <section className='AccueilBigProjectsSection'>
 
                 <OneBigProject title={'Manufactures Sénégalaises Des Arts Décoratifs de THIES'} image={ImageProject_4}
-                    description={"404_digital et yord.studio (République Tchèque) ont collaboré afin de numériser la salle d’exposition des Manufactures Sénégalaises des Arts Décoratifs de Thiès."}
+                    description={"404 digital et Yord studio (République Tchèque) a collaboré afin de numériser la salle d’exposition des manufactures Sénégalaises des arts Décoratifs de Thiès."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/MSDAD-de-THIES'} side={'right'} />
 
                 <OneBigProject title={`Musée Théodore-Monod d'art africain`} image={ImageProject_1}

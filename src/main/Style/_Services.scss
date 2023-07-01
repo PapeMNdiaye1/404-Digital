@@ -10,6 +10,33 @@
     z-index: 1;
     background-color: #000;
 
+    .Services-Header {
+        width: 100%;
+        height: 20em;
+        @include cent();
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: var(--color0);
+
+        .visualization-projects {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            font-weight: 900;
+            width: 40%;
+            padding-bottom: 1em;
+            @include cent();
+
+        }
+
+        .visualization-projects-description {
+            width: 40%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
     .one_service {
         width: calc(100% - 40vw);
         display: grid;
@@ -42,7 +69,6 @@
                 background-color: var(--color0);
                 transition-duration: .2s;
             }
-
         }
 
         .the_descrition {
@@ -56,19 +82,20 @@
             color: var(--color0);
 
             p {
-                // background-color: salmon;
                 width: 100%;
                 text-align: start;
             }
         }
 
         .project_container {
-            margin-top: 7em;
-            padding-bottom: 7em;
+            margin-top: 3em;
+            padding-bottom: 1em;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, auto);
             grid-gap: 1em;
+            border-bottom: .01em solid rgba(255, 255, 255, 0.2);
+            // border-top: .01em solid rgba(255, 255, 255, 0.2);
 
             .one_galerie_element_container {
                 height: auto;
@@ -96,7 +123,6 @@
                                 top: 0%;
                             }
                         }
-
                     }
 
                     .one_galerie_element_hover {
@@ -111,7 +137,6 @@
                         transition-duration: 0s, 1s;
                         transition-property: height, background-color;
 
-
                         .iner_container {
                             width: 100%;
                             height: auto;
@@ -119,7 +144,6 @@
                             flex-wrap: wrap;
                             top: 6%;
                             transition-duration: .3s;
-
 
                             .titre {
                                 width: 99%;
@@ -132,7 +156,6 @@
                                 text-align: center;
                                 color: var(--color0);
                                 text-decoration: none;
-
                             }
 
                             .date {
@@ -174,11 +197,9 @@
                     }
                 }
             }
-
         }
     }
 }
-
 
 //!########################################
 

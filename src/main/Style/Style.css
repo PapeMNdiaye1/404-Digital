@@ -1483,7 +1483,11 @@
           align-items: center;
 }
 
-#Accueil .intervention-area .one-card {
+#Accueil .intervention-area .the_link {
+  text-decoration: none;
+}
+
+#Accueil .intervention-area .the_link .one-card {
   width: 18em;
   height: 36em;
   margin: 2vw 5vw 5vw 5vw;
@@ -1513,14 +1517,14 @@
   cursor: pointer;
 }
 
-#Accueil .intervention-area .one-card:hover {
+#Accueil .intervention-area .the_link .one-card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
 
-#Accueil .intervention-area .one-card p {
+#Accueil .intervention-area .the_link .one-card p {
   width: 90%;
   font-family: 'Montserrat', sans-serif;
   color: var(--color0);
@@ -2358,6 +2362,9 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+  #Accueil .equipe_presantation {
+    text-align: center;
+  }
   #Accueil .equipe_presantation .equipe {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2717,6 +2724,52 @@
   background-color: #000;
 }
 
+#Services .Services-Header {
+  width: 100%;
+  height: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: var(--color0);
+}
+
+#Services .Services-Header .visualization-projects {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  width: 40%;
+  padding-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Services .Services-Header .visualization-projects-description {
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+
 #Services .one_service {
   width: calc(100% - 40vw);
   display: -ms-grid;
@@ -2795,8 +2848,8 @@
 }
 
 #Services .one_service .project_container {
-  margin-top: 7em;
-  padding-bottom: 7em;
+  margin-top: 3em;
+  padding-bottom: 1em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -2804,6 +2857,7 @@
   -ms-grid-rows: (auto)[3];
       grid-template-rows: repeat(3, auto);
   grid-gap: 1em;
+  border-bottom: 0.01em solid rgba(255, 255, 255, 0.2);
 }
 
 #Services .one_service .project_container .one_galerie_element_container {
@@ -3823,6 +3877,21 @@
           justify-content: space-between;
 }
 
+.Hangar_1_container .project_display .TheImageContainer img {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-radius: 1em;
+}
+
+.Hangar_1_container .project_display .TheImageContainer img:hover {
+  -webkit-box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+          box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
 .Hangar_1_container .project_display p {
   width: 60vw;
   margin-bottom: 2em;
@@ -4109,6 +4178,21 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.Pharmacie_1_container .project_display .TheImageContainer img {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-radius: 1em;
+}
+
+.Pharmacie_1_container .project_display .TheImageContainer img:hover {
+  -webkit-box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+          box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .Pharmacie_1_container .project_display p {

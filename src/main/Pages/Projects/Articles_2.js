@@ -1,6 +1,5 @@
 import { React, useEffect, useState, Fragment } from 'react';
 
-
 import ImageProjectC2 from '../../Style/Images/Infos/Event-19.jpg';
 import ImageProjectC1 from '../../Style/Images/Infos/Event-18.jpg';
 import ImageProjectC3 from '../../Style/Images/Infos/Event-17.jpg';
@@ -11,8 +10,6 @@ import ImageProjectC7 from '../../Style/Images/Infos/Event-13.jpg';
 import ImageProjectC8 from '../../Style/Images/Infos/Event-12.jpg';
 import ImageProjectC9 from '../../Style/Images/Infos/Event-11.jpg';
 import ImageProjectC10 from '../../Style/Images/Infos/Event-10.jpg';
-
-
 
 function Pharmacie1({ }) {
     const [TheImageContainer, setTheImageContainer] = useState(false);
@@ -69,7 +66,7 @@ function Pharmacie1({ }) {
                     <h3 className='project_description'>
                         | 12 October , 2022 |
                     </h3>
-                    <p>404_digital et yord.studio (République Tchèque) ont collaboré afin de numériser la salle d’exposition des Manufactures Sénégalaises des Arts Décoratifs de Thiès.</p>
+                    <p>404 digital et Yord studio (République Tchèque) a collaboré afin de numériser la salle d’exposition des manufactures Sénégalaises des arts Décoratifs de Thiès.</p>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='  Pharmacie Design - 5' />
                     </div>

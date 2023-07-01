@@ -207,37 +207,39 @@
     .intervention-area {
         width: 100vw;
         height: auto;
-        // background-color: salmon;
         @include cent();
-        // justify-content: space-around;
 
-        .one-card {
-            width: 18em;
-            height: 36em;
-            margin: 2vw 5vw 5vw 5vw;
-            border: .15em var(--color0) solid;
-            border-radius: 1em;
-            overflow: hidden;
-            @include cent();
-            flex-wrap: wrap;
-            align-items: start;
-            transform: scale(1);
-            transition-duration: .3s;
-            filter: grayscale(100);
-            cursor: pointer;
+        .the_link {
+            text-decoration: none;
 
-            &:hover {
-                transform: scale(1.1);
-                filter: grayscale(0);
-            }
+            .one-card {
+                width: 18em;
+                height: 36em;
+                margin: 2vw 5vw 5vw 5vw;
+                border: .15em var(--color0) solid;
+                border-radius: 1em;
+                overflow: hidden;
+                @include cent();
+                flex-wrap: wrap;
+                align-items: start;
+                transform: scale(1);
+                transition-duration: .3s;
+                filter: grayscale(100);
+                cursor: pointer;
 
-            p {
-                width: 90%;
-                font-family: 'Montserrat', sans-serif;
-                color: var(--color0);
-                text-align: center;
-                font-size: .7em;
-                font-weight: 700;
+                &:hover {
+                    transform: scale(1.1);
+                    filter: grayscale(0);
+                }
+
+                p {
+                    width: 90%;
+                    font-family: 'Montserrat', sans-serif;
+                    color: var(--color0);
+                    text-align: center;
+                    font-size: .7em;
+                    font-weight: 700;
+                }
             }
         }
 
@@ -309,7 +311,6 @@
 
         .oculus {
             background-image: url('../Style/Images/SVG/Oculus.png');
-            // filter: invert(100);
             width: 12em;
         }
 
@@ -439,11 +440,9 @@
             }
 
             .info_container {
-
                 grid-column: 1 / 1;
                 grid-row: 1 / 1;
             }
-
         }
 
         .left {
@@ -498,7 +497,6 @@
 
         .galerie_container {
             width: 100%;
-            // background-color: skyblue;
             padding-left: 10vw;
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
@@ -652,7 +650,6 @@
         @include cent();
         flex-wrap: wrap;
         color: var(--color0);
-        // background-color: #cfab8b;
 
         .equipe {
             width: 80%;
@@ -667,7 +664,6 @@
             flex-wrap: wrap;
 
             .members {
-                // background-color: #f1f1f1;
                 width: 15em;
                 height: auto;
                 margin: 3em;
@@ -753,8 +749,6 @@
 
             .slider:nth-child(1) {
                 background-image: url(./Images/Project/Intro-1.jpg);
-                // z-index: 3;
-                // opacity: 1;
                 background-position-x: 60%;
 
                 .slider_title:nth-child(1) {
@@ -762,11 +756,6 @@
                     color: var(--color0);
                     opacity: .9;
                 }
-
-                // .slider_date {
-                //     color: var(--color0);
-                // }
-
             }
         }
 
@@ -822,7 +811,6 @@
             @include cent();
             flex-wrap: wrap;
             transform: scale(.8);
-            // justify-content: start;
             height: 15em;
 
             .unreal,
@@ -941,73 +929,15 @@
 
         //!#####################################################################
         .equipe_presantation {
-            //   height: auto;
-            //   width: 100%;
-            //   @include cent();
-            //   flex-wrap: wrap;
-            //   color: var(--color0);
-            // background-color: #cfab8b;
+            text-align: center;
 
             .equipe {
-                //   width: 80%;
-                //   font-family: 'Montserrat', sans-serif;
-                //   font-weight: 900;
-                //   font-size: 1.8em;
                 @include cent();
             }
 
             .equipe_big_container {
-                //    width: 100%;
-                //    @include cent();
-                //    flex-wrap: wrap;
 
-                .members {
-                    // background-color: #f1f1f1;
-                    //    width: 15em;
-                    //    height: auto;
-                    //    margin: 3em;
-                    //    @include cent();
-                    //    flex-wrap: wrap;
-
-                    //    .pic {
-                    //        width: 7em;
-                    //        height: 7em;
-                    //        background-image: url('./Images/Extra/Profil-3.jpg');
-                    //        background-size: 110%;
-                    //        border-radius: 50%;
-                    //        background-position: center;
-                    //        margin-bottom: 1em;
-                    //    }
-
-                    //    .pic1 {
-                    //        background-image: url('./Images/Extra/Profil-4.jpg');
-                    //    }
-
-                    //    .pic2 {
-                    //        background-image: url('./Images/Extra/Profil-2.jpg');
-                    //    }
-
-                    //    .pic4 {
-                    //        background-image: url('./Images/Extra/Profil-1.jpg');
-                    //    }
-
-                    //    em {
-                    //        font-family: 'Montserrat', sans-serif;
-                    //        font-weight: 900;
-                    //        font-size: 1em;
-                    //    }
-
-                    //    p {
-                    //        text-align: center;
-
-
-                    //        font-family: 'Montserrat',
-                    //            sans-serif;
-                    //        margin-top: 1em;
-                    //        font-size: .7em;
-                    //        font-weight: 200;
-                    //    }
-                }
+                .members {}
             }
         }
     }

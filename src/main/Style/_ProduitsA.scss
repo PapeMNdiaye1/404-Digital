@@ -20,7 +20,6 @@
         grid-template-columns: 1fr;
         padding-bottom: 2em;
 
-
         .project_title {
             font-family: 'Montserrat', sans-serif;
             font-size: 2em;
@@ -44,6 +43,17 @@
             cursor: pointer;
             display: flex;
             justify-content: space-between;
+
+            img {
+                transition-duration: .3s;
+                transform: scale(1);
+                border-radius: 1em;
+
+                &:hover {
+                    box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+                    transform: scale(1.03);
+                }
+            }
         }
 
         p {
@@ -55,7 +65,6 @@
             color: var(--color0);
         }
     }
-
 }
 
 //!########################################

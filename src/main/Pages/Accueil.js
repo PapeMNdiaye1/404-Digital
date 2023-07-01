@@ -1,26 +1,13 @@
 import { React, useEffect, useState, Fragment } from 'react';
 import { Link } from "react-router-dom";
 
-
-import ImageProjectA1 from '../Style/Images/Project/Exterior-0.jpg';
-
 import ImageProjectB1 from '../Style/Images/Project/City-9.jpg';
-
 import ImageProjectC2 from '../Style/Images/Project/Interior-1-2.jpg';
-
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
-
-// import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
 import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
-
-
 import ImageProjectM1 from '../Style/Images/Project/ProductA-1.jpg';
-
-
 import ImageProject_3 from '../Style/Images/Infos/Event-2.jpg';
-
 import ImageProject_4 from '../Style/Images/Infos/Event-12.jpg';
-
 
 function Accueil({ GetImageToApp }) {
 
@@ -94,38 +81,46 @@ function Accueil({ GetImageToApp }) {
             </section>
 
             <div className='intervention-area'>
-                <div className='one-card'>
-                    <div className='card-cover card-cover-1'>
-                        gy
+                <Link className='the_link' to={'./Service'}>
+                    <div className='one-card'>
+                        <div className='card-cover card-cover-1'>
+                            gy
+                        </div>
+                        <div className='title-of-card'>
+                            RÉALITÉ AUGMENTÉE
+                        </div>
+                        <p>
+                            La réalité augmentée (AR) est une version améliorée du monde physique qui ajoute des éléments numériques à une vue en direct du monde physique grâce au suivi et au rendu.</p>
                     </div>
-                    <div className='title-of-card'>
-                        RÉALITÉ AUGMENTÉE
+                </Link>
+
+                <Link className='the_link' to={'./Service'}>
+                    <div className='one-card'>
+                        <div className='card-cover card-cover-2'>
+
+                        </div>
+                        <div className='title-of-card'>
+                            VISUALISATION 3D
+                        </div>
+                        <p>
+                            La visualisation 3D est une méthode puissante et polyvalente qui présente de nombreux avantages pour différentes industries. Elle permet de représenter graphiquement des objets, des scènes ou des données dans un environnement tridimensionnel, offrant ainsi une expérience visuelle immersive et réaliste.
+                        </p>
                     </div>
-                    <p>
-                        La réalité augmentée (AR) est une version améliorée du monde physique qui ajoute des éléments numériques à une vue en direct du monde physique grâce au suivi et au rendu. l'AR représente l'un de nos principaux objectifs.                   </p>
-                </div>
-                <div className='one-card'>
-                    <div className='card-cover card-cover-2'>
+                </Link>
+                <Link className='the_link' to={'./Service'}>
+                    <div className='one-card'>
+                        <div className='card-cover card-cover-3'>
+
+                        </div>
+                        <div className='title-of-card'>
+                            RÉALITÉ VIRTUEL
+                        </div>
+                        <p>
+                            La technique de réalité virtuelle (VR) permet à l'utilisateur de se retrouver dans un environnement simulé, idéalement accompagnée de son interaction. En bref, les techniques VR créent l'illusion du monde réel. Avec le potentiel illimité des offres de réalité virtuelle, il devient progressivement un nouvel outil de prédilection pour de nombreuses industries et entreprises.
+                        </p>
 
                     </div>
-                    <div className='title-of-card'>
-                        VISUALISATION 3D
-                    </div>
-                    <p>
-                        La visualisation 3D est une méthode puissante et polyvalente qui présente de nombreux avantages pour différentes industries. Elle permet de représenter graphiquement des objets, des scènes ou des données dans un environnement tridimensionnel, offrant ainsi une expérience visuelle immersive et réaliste.
-                    </p>
-                </div>
-                <div className='one-card'>
-                    <div className='card-cover card-cover-3'>
-
-                    </div>
-                    <div className='title-of-card'>
-                        RÉALITÉ VIRTUEL
-                    </div>
-                    <p>
-                        La technologie de réalité virtuelle (VR) permet à l'utilisateur de se retrouver dans un environnement simulé, idéalement accompagné de son interaction. En bref, les technologies VR créent l'illusion du monde réel. Avec le potentiel illimité des offres de réalité virtuelle, il devient progressivement un nouvel outil de prédilection pour de nombreuses industries et entreprises.                    </p>
-
-                </div>
+                </Link>
             </div>
 
             <div className='software'>
@@ -147,12 +142,10 @@ function Accueil({ GetImageToApp }) {
                 </div>
             </div>
 
-
-
             <section className='AccueilBigProjectsSection'>
 
                 <OneBigProject title={'Manufactures Sénégalaises Des Arts Décoratifs de THIES'} image={ImageProject_4}
-                    description={"404_digital et yord.studio (République Tchèque) ont collaboré afin de numériser la salle d’exposition des Manufactures Sénégalaises des Arts Décoratifs de Thiès."}
+                    description={"404 digital et Yord studio (République Tchèque) a collaboré afin de numériser la salle d’exposition des manufactures Sénégalaises des arts Décoratifs de Thiès."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={1} The_Experience={false} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/MSDAD-de-THIES'} side={'right'} />
 
                 <OneBigProject title={'FORAFRICC 2023'} image={ImageProject_3}
@@ -223,7 +216,7 @@ function Accueil({ GetImageToApp }) {
                     description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={2} link={'/City1'} side={'left'} The_Experience={false} />
 
-                <OneBigProject title={'Visualisaoions 3D De Produits'} image={ImageProjectM1}
+                <OneBigProject title={'Visualisations 3D De Produits'} image={ImageProjectM1}
                     description={"Cette technique offre de nombreux avantages pour différentes industries, en leur permettant de mieux visualiser, de présenter et de commercialiser leurs produits."}
                     color={'#000'} textcolor={'#f1f1f1'} theKey={3} link={'/ProduitsA'} side={'right'} The_Experience={false} />
 
@@ -248,7 +241,6 @@ function Accueil({ GetImageToApp }) {
 }
 //!###############################################################
 function AccueilSlider() {
-
 
     const onClickOnDot = (e) => {
         let AllSlider = document.querySelectorAll(".slider")
@@ -289,6 +281,7 @@ function AccueilSlider() {
             sliderBtnContainer.innerHTML = '';
         }
     }, [])
+
     const CreateSliderBtn = (theSlider) => {
         let sliderBtnContainer = document.querySelector(".slider_btn_container")
         let OneDot = document.createElement("div")
@@ -296,6 +289,7 @@ function AccueilSlider() {
         OneDot.setAttribute("theSlider", theSlider);
         sliderBtnContainer.appendChild(OneDot)
     }
+
     return (
         <div className="Accueil_Slider">
             <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'Séngal, Dakar'} title={<p>DÉVELOPPEMENT <dr />D'EXPERIENCE DE RÉALITÉ VIRTUELLE <br />POUR LES ENTREPRISES</p>} />
@@ -395,7 +389,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             <Link className='the_link'
                                 style={{
                                     color: textcolor,
-                                    // border: `.1em solid ${textcolor}`
+                                    border: `.1em solid ${textcolor}`
                                 }} to={link}>
                                 Voir plus  <ion-icon name="arrow-forward-outline"></ion-icon>
                             </Link>
@@ -403,7 +397,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                                 <a
                                     style={{
                                         color: textcolor,
-                                        // border: `.1em solid ${textcolor}`
+                                        border: `.1em solid ${textcolor}`
                                     }}
                                     className='the_link' href={The_Experience_Link} target="_blank" >
 

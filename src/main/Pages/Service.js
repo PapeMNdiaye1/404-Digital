@@ -44,6 +44,15 @@ function Services() {
 
     return (
         <div id="Services">
+
+            <section className='Services-Header'>
+                <h1 className='visualization-projects'>
+                    Nos Services
+                </h1>
+                <p className='visualization-projects-description'>
+                    Nous nous efforçons de créer des expériences RV et des visuels de haute qualité qui plongent les utilisateurs dans des environnements saisissants, réalistes et captivants.
+                </p>
+            </section>
             <OneService theServiceTitle={'Visualisations 3D "Rendus Images et Animations"'}
                 theServiceDescription={
                     <p>
@@ -54,21 +63,20 @@ function Services() {
                     <div className='project_container'>
                         <OneGalerieElement image={ImageProjectA4} title={'Design de Maison Moderne'} link={'/SmallHouse1'} date={'15 avril, 2022'} />
                         <OneGalerieElement image={ImageProjectB3} title={"Cité El Hadj Amadou BA"} link={"/City1"} date={'27 Mai, 2022'} />
-                        {/* <OneGalerieElement image={ImageProjectE7} title={'Design pour les Commerces'} link={'/Pharmacie1'} date={'27 Mai, 2022'} /> */}
                         <OneGalerieElement image={ImageProjectC7} title={'Interior Design'} link={'/Interior1'} date={'03 Juin, 2022'} />
                     </div>
                 } color={'#000'}
             />
             <OneService
-                theServiceTitle={'Visualisaoions 3D De Produits'}
+                theServiceTitle={'Visualisation 3D De Produits'}
                 theServiceDescription={
                     <p>
                         Cette technique offre de nombreux avantages pour différentes industries, en leur permettant de mieux visualiser, de présenter et de commercialiser leurs produits.
                     </p>}
                 TheGalerieElements={
                     <div className='project_container'>
-                        <OneGalerieElement image={ImageProjectM1} title={'Visualisaoions De Produits Produit De Beauté'} link={'/ProduitsA'} date={'27 Mai, 2022'} />
-                        <OneGalerieElement image={ImageProjectN1} title={'Visualisaoions Tapie De Souris Gamer( Wraptor Gaming)'} link={'/ProduitsB'} date={'23 Décembre, 2022'} />
+                        <OneGalerieElement image={ImageProjectM1} title={'Visualisations De Produits Produit De Beauté'} link={'/ProduitsA'} date={'27 Mai, 2022'} />
+                        <OneGalerieElement image={ImageProjectN1} title={'Visualisations Tapie De Souris Gamer( Wraptor Gaming)'} link={'/ProduitsB'} date={'23 Décembre, 2022'} />
                     </div>
                 } color={'#000'}
             />

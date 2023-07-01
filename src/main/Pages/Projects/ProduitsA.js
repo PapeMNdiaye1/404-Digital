@@ -61,7 +61,7 @@ function Pharmacie1({ }) {
 
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Visualisaoions De Produits Produit De Beauté
+                        Visualisations De Produits Produit De Beauté
                     </h1>
                     <h3 className='project_description'>
                         27 Mai, 2022
