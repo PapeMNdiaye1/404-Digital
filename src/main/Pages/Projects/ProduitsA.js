@@ -64,7 +64,7 @@ function Pharmacie1({ }) {
                         Visualisations De Produits Produit De Beauté
                     </h1>
                     <h3 className='project_description'>
-                        27 Mai, 2022
+                        | 27 Mai, 2022 |
                     </h3>
                     <p>
                         Mise en avant de produit à travers des supports modernes. branding , Pub , Animations...
@@ -80,8 +80,7 @@ function Pharmacie1({ }) {
                         <img onClick={displayImage} src={ImageProjectC3} width='100%' alt='  Pharmacie Design - 4' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt='  Pharmacie Design - 5' />
-                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='  Pharmacie Design - 6' />
+                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='  Pharmacie Design - 5' />
                     </div>
                     <h1 className='project_title'>
                         Clay Renders

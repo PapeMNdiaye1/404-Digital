@@ -70,7 +70,7 @@ function SmallHouse1({ }) {
                         Design de Maison Moderne
                     </h1>
                     <h3 className='project_description'>
-                        par Pape Momar Ndiaye | Juin 6, 2022 |
+                        | 6 Juin, 2022 |
                     </h3>
                     <p>
                         Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives.                    </p>

@@ -67,7 +67,7 @@ function City1({ }) {
                         Cité El Hadj Amadou BA
                     </h1>
                     <h3 className='project_description'>
-                        par Pape Momar Ndiaye | 12 Juin, 2023 |
+                        | 12 Juin, 2023 |
                     </h3>
                     <p>
                         Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs.

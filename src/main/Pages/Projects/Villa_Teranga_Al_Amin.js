@@ -60,7 +60,7 @@ function SmallHouse1({ }) {
                         Villa Al Amin
                     </h1>
                     <h3 className='project_description'>
-                        par Pape Momar Ndiaye | 26 Janvier, 2023 |
+                        | 26 Janvier, 2023 |
                     </h3>
                     <p>
                         Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide. Les visites virtuelles sont une solution pratique pour toutes les parties impliquées dans le processus immobilier.

@@ -74,7 +74,7 @@ function Interior1({ }) {
                         Interior Decoration
                     </h1>
                     <h3 className='project_description'>
-                        par Pape Momar Ndiaye | 3 Juin, 2022 |
+                        | 3 Juin, 2022 |
                     </h3>
                     <p>
                         À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur, nous vous aidons dans l’aménagement de vos espaces. Du design moderne au traditionnelle, minimaliste etc. nous modélisons espaces, mobiliers et décors intérieurs afin de vous assurer de toute la commodité et de l’esthétique qu’auront vos projets avant leur réalisation.
