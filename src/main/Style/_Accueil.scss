@@ -215,7 +215,7 @@
             .one-card {
                 width: 18em;
                 height: 36em;
-                margin: 2vw 5vw 5vw 5vw;
+                margin: 2vw 5vw 10vw 5vw;
                 border: .15em var(--color0) solid;
                 border-radius: 1em;
                 overflow: hidden;
@@ -228,7 +228,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    transform: scale(1.1);
+                    transform: scale(1.07);
                     filter: grayscale(0);
                 }
 

@@ -1493,7 +1493,7 @@
 #Accueil .intervention-area .the_link .one-card {
   width: 18em;
   height: 36em;
-  margin: 2vw 5vw 5vw 5vw;
+  margin: 2vw 5vw 10vw 5vw;
   border: 0.15em var(--color0) solid;
   border-radius: 1em;
   overflow: hidden;
@@ -1521,8 +1521,8 @@
 }
 
 #Accueil .intervention-area .the_link .one-card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
