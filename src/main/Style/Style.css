@@ -2448,9 +2448,9 @@
   background-repeat: no-repeat;
   -webkit-transition-duration: .4s;
           transition-duration: .4s;
-  border-radius: 1em;
   -webkit-box-shadow: inset 0em -2em 250px #000;
           box-shadow: inset 0em -2em 250px #000;
+  border-radius: 1em;
 }
 
 #Travaux .AccueilBigProjectsSection .One_Project_In_Home .image_container:hover {
@@ -2652,16 +2652,17 @@
     min-height: auto;
   }
   #Travaux .AccueilBigProjectsSection .One_Project_In_Home {
-    min-height: 36em;
+    min-height: 27em;
     height: auto;
     grid-gap: 0em;
+    margin-bottom: 4em;
   }
   #Travaux .AccueilBigProjectsSection .One_Project_In_Home .image_container {
     width: 100%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 0%;
+    border-radius: 1em;
     -webkit-box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
             box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
