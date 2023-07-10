@@ -123,9 +123,9 @@ function OneService({ color, theServiceTitle, TheGalerieElements, theServiceDesc
             <h2 className='the_title'>
                 {theServiceTitle}
             </h2>
-            <p className='the_descrition'>
+            <div className='the_descrition'>
                 {theServiceDescription}
-            </p>
+            </div>
             {TheGalerieElements}
         </div >
     );

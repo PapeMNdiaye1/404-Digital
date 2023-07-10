@@ -162,7 +162,7 @@ function Accueil({ GetImageToApp }) {
 
             <section className='equipe_presantation'>
                 <h2 className='equipe' >
-                    Members Fondateurs
+                    Membres Fondateurs
                 </h2>
                 <div className='equipe_big_container'>
                     <div className='members members-A'>
@@ -292,10 +292,10 @@ function AccueilSlider() {
 
     return (
         <div className="Accueil_Slider">
-            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'Séngal, Dakar'} title={<p>DÉVELOPPEMENT <dr />D'EXPERIENCE DE RÉALITÉ VIRTUELLE <br />POUR LES ENTREPRISES</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'Séngal, Dakar'} title={<p>CRÉATION DE <dr />MAQUETTES </p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'Séngal, Dakar'} title={<p>VISUALISATIONS 3D <dr /> DE PRODUITS</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'Séngal, Dakar'} title={<p>VISUALISATIONS <dr /> ARCHITECTURALS ET IMMOBILIERS</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'Séngal, Dakar'} title={<p>DÉVELOPPEMENT D'EXPERIENCE DE RÉALITÉ VIRTUELLE POUR LES ENTREPRISES</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'Séngal, Dakar'} title={<p>CRÉATION DE MAQUETTES </p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'Séngal, Dakar'} title={<p>VISUALISATIONS 3D DE PRODUITS</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'Séngal, Dakar'} title={<p>VISUALISATIONS ARCHITECTURALS ET IMMOBILIERS</p>} />
             <div className='slider_btn_container'>
             </div>
         </div>
@@ -377,7 +377,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             }} className='title'>
                             {title}
                         </h3>
-                        <p
+                        <div
                             className='description'>
                             <div
                                 style={{
@@ -406,7 +406,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             ) : (
                                 <div></div>
                             )}
-                        </p>
+                        </div>
                     </div>
                     <div
                         role="img" alt={title}
@@ -431,7 +431,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             className='title' >
                             {title}
                         </h3>
-                        <p
+                        <div
                             className='description'>
                             <div
                                 style={{
@@ -461,7 +461,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             ) : (
                                 <div></div>
                             )}
-                        </p>
+                        </div>
                     </div>
                     <div
                         role="img" alt={title}
@@ -514,7 +514,7 @@ function TheFooter({ }) {
                     Travaux
                 </Link>
 
-                <Link className='menu_elemant' to={'/Service'} onClick={onClickOnTab}>
+                <Link className='menu_elemant' to={'/Services'} onClick={onClickOnTab}>
                     Services
                 </Link>
 
