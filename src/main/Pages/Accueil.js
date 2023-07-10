@@ -81,7 +81,7 @@ function Accueil({ GetImageToApp }) {
             </section>
 
             <div className='intervention-area'>
-                <Link className='the_link' to={'./Service'}>
+                <Link className='the_link' to={'./Services'}>
                     <div className='one-card'>
                         <div className='card-cover card-cover-1'>
                             gy
@@ -94,7 +94,7 @@ function Accueil({ GetImageToApp }) {
                     </div>
                 </Link>
 
-                <Link className='the_link' to={'./Service'}>
+                <Link className='the_link' to={'./Services'}>
                     <div className='one-card'>
                         <div className='card-cover card-cover-2'>
 
@@ -107,7 +107,7 @@ function Accueil({ GetImageToApp }) {
                         </p>
                     </div>
                 </Link>
-                <Link className='the_link' to={'./Service'}>
+                <Link className='the_link' to={'./Services'}>
                     <div className='one-card'>
                         <div className='card-cover card-cover-3'>
 
