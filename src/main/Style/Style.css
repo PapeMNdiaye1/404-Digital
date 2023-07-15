@@ -4633,6 +4633,21 @@
           justify-content: space-between;
 }
 
+.Article_4 .project_display .TheImageContainer img {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-radius: 1em;
+}
+
+.Article_4 .project_display .TheImageContainer img:hover {
+  -webkit-box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+          box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
 .Article_4 .project_display p {
   width: 60vw;
   margin-bottom: 2em;

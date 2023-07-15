@@ -2,11 +2,11 @@ import { React, useEffect, useState, Fragment } from 'react';
 
 
 import ImageProjectC1 from '../../Style/Images/Infos/Event-4.jpg';
-// import ImageProjectC1 from '../../Style/Images/Infos/Event-1.jpg';
-// import ImageProjectC3 from '../../Style/Images/Infos/Event-21.jpg';
-// import ImageProjectC4 from '../../Style/Images/Infos/Event-22.jpg';
-// import ImageProjectC5 from '../../Style/Images/Infos/Event-23.jpg';
-// import ImageProjectC6 from '../../Style/Images/Infos/Event-24.jpg';
+import ImageProjectC2 from '../../Style/Images/Infos/Event-25.jpg';
+import ImageProjectC3 from '../../Style/Images/Infos/Event-26.jpg';
+import ImageProjectC4 from '../../Style/Images/Infos/Event-27.jpg';
+import ImageProjectC5 from '../../Style/Images/Infos/Event-28.jpg';
+import ImageProjectC6 from '../../Style/Images/Infos/Event-29.jpg';
 
 
 
@@ -60,26 +60,27 @@ function Pharmacie1({ }) {
             <div className='Article_4'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Fix Challenge                  </h1>
+                        Fix Challenge            </h1>
                     <h3 className='project_description'>
-                        | 17 Mai , 2023 |
+                        | 15 Juillet , 2023 |
                     </h3>
                     <p>
-                        Le Musée Théodore Monod a accueilli la restitution des résidences crea.sen, organisée en collaboration avec l'@ueausenegal.                        </p>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 5' />
-                    </div>
-                    {/* <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='  Pharmacie Design - 3' />
-                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='  Pharmacie Design - 4' />
-                    </div>
+                        Lauréat de la compétition Fix Challenge 2023 ! La notre start-up et remporte le 3e prix, démontrant Son Excellence et son innovation dans le domaine de la technique. Nous sommes honorés d'avoir été reconnus par le réseau Free Sénégal pour notre travail et notre dévouement. Cette victoire marque un jalon important dans notre parcours et nous motive à continuer à repousser les limites de l'innovation numérique. Merci à tous nos membres talentueux de l'équipe et à nos partenaires pour leur soutien indéfectible. Ensemble, nous construisons un avenir prometteur pour le secteur technologique au Sénégal.
+                    </p>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='  Pharmacie Design - 3' />
-                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt='  Pharmacie Design - 4' />
-                    </div> */}
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='  Pharmacie Design - 3' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='  Pharmacie Design - 4' />
+                    </div>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC6} width='100%' alt='  Pharmacie Design - 3' />
+                    </div>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 5' />
+                    </div>
+
                 </div>
             </div>
         </Fragment>

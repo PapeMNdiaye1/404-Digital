@@ -538,6 +538,7 @@ function TheFooter({ }) {
             <div className='contact_elemant_container'>
                 <div className='contact_elemant '>digital404sn@gmail.com</div>
                 <div className='contact_elemant '>Tel: 77 727 86 55</div>
+                <div className='contact_elemant '>Tel: 77 493 89 89</div>
             </div>
 
             <div className='network_container'>
