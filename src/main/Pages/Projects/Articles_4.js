@@ -7,6 +7,7 @@ import ImageProjectC3 from '../../Style/Images/Infos/Event-26.jpg';
 import ImageProjectC4 from '../../Style/Images/Infos/Event-27.jpg';
 import ImageProjectC5 from '../../Style/Images/Infos/Event-28.jpg';
 import ImageProjectC6 from '../../Style/Images/Infos/Event-29.jpg';
+import ImageProjectC7 from '../../Style/Images/Infos/Event-30.jpg';
 
 
 
@@ -67,6 +68,9 @@ function Pharmacie1({ }) {
                     <p>
                         Lauréat de la compétition Fix Challenge 2023 ! La notre start-up et remporte le 3e prix, démontrant Son Excellence et son innovation dans le domaine de la technique. Nous sommes honorés d'avoir été reconnus par le réseau Free Sénégal pour notre travail et notre dévouement. Cette victoire marque un jalon important dans notre parcours et nous motive à continuer à repousser les limites de l'innovation numérique. Merci à tous nos membres talentueux de l'équipe et à nos partenaires pour leur soutien indéfectible. Ensemble, nous construisons un avenir prometteur pour le secteur technologique au Sénégal.
                     </p>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC7} width='100%' alt='  Pharmacie Design - 1' />
+                    </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
                     </div>

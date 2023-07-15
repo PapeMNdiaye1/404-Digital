@@ -496,36 +496,24 @@ function TheFooter({ }) {
             <div className='titles'>Contacts</div>
             <div className='titles'>Reseaux</div>
             <div className='titles'></div>
-
-            {/* <a href="https://pape-momar-ndiaye-portfolio.netlify.app/" target="_blank"
-                className='portfolio_link'>Voir le portfolio <ion-icon name="arrow-forward-outline"></ion-icon></a> */}
-
             <p className='archviz_description'>
                 Notre mission est d'explorer les possibilités infinies offertes par la réalité virtuelle pour transformer la manière dont les individus travaillent, se divertissent et se connectent entre eux. Nous nous efforçons de créer des expériences RV de haute qualité qui plongent les utilisateurs dans des environnements virtuels saisissants, réalistes et captivants.
             </p>
-
             <nav className='menu_elemant_container'>
-
                 <Link className='menu_elemant' to={'/'} onClick={onClickOnTab}>
                     Accueil
                 </Link>
-
                 <Link className='menu_elemant' to={'/Travaux'} onClick={onClickOnTab}>
                     Travaux
                 </Link>
-
                 <Link className='menu_elemant' to={'/Services'} onClick={onClickOnTab}>
                     Services
                 </Link>
-
                 <Link className='menu_elemant' to={'/ARTICLES'} onClick={onClickOnTab}>
                     Articles
                 </Link>
-
                 <div className='menu_elemant'></div>
-
             </nav>
-
             <div className='categories_elemant_container'>
                 <div className='categories_elemant'><ion-icon name="ellipse"></ion-icon>Visualisation</div>
                 <div className='categories_elemant'><ion-icon name="ellipse"></ion-icon>Creation de Visite Web</div>
@@ -534,7 +522,6 @@ function TheFooter({ }) {
                 <div className='categories_elemant'><ion-icon name="ellipse"></ion-icon>Visualisations Architecturals</div>
                 <div className='categories_elemant'><ion-icon name="ellipse"></ion-icon>Creation de Maquette</div>
             </div>
-
             <div className='contact_elemant_container'>
                 <div className='contact_elemant '>digital404sn@gmail.com</div>
                 <div className='contact_elemant '>Tel: 77 727 86 55</div>
