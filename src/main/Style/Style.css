@@ -1652,6 +1652,7 @@
   display: grid;
   grid-gap: .5em;
   margin-bottom: 1.5em;
+  border: .5em solid black;
 }
 
 #Accueil .AccueilBigProjectsSection .One_Project_In_Home .image_container {

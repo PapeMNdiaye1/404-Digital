@@ -336,7 +336,6 @@
     .AccueilBigProjectsSection {
         width: 100%;
         min-height: 50em;
-        // @include cent();
         flex-wrap: wrap;
 
         .One_Project_In_Home {
@@ -344,6 +343,7 @@
             display: grid;
             grid-gap: .5em;
             margin-bottom: 1.5em;
+            border: .5em solid black;
 
             .image_container {
                 width: 100%;
@@ -355,7 +355,6 @@
                 border-radius: 1em;
                 background-size: 105%;
                 box-shadow: inset 0em -.51em 150px #000;
-
 
                 &:hover {
                     background-size: 115%;
@@ -462,8 +461,6 @@
                 grid-row: 1 / 1;
             }
         }
-
-
 
     }
 

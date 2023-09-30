@@ -49,7 +49,6 @@ function App() {
   const [TheDate, setTheDate] = useState('');
   const [TheLink, setTheLink] = useState('/');
 
-
   const changeTab = (newTab, link) => {
     console.log(newTab, link);
   }
