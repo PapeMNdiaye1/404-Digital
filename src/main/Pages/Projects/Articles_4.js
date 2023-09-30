@@ -4,7 +4,7 @@ import { React, useEffect, useState, Fragment } from 'react';
 import ImageProjectC1 from '../../Style/Images/Infos/Event-4.jpg';
 import ImageProjectC2 from '../../Style/Images/Infos/Event-25.jpg';
 import ImageProjectC3 from '../../Style/Images/Infos/Event-26.jpg';
-import ImageProjectC4 from '../../Style/Images/Infos/Event-27.jpg';
+import ImageProjectC4 from '../../Style/Images/Infos/Event-31.jpg';
 import ImageProjectC5 from '../../Style/Images/Infos/Event-28.jpg';
 import ImageProjectC6 from '../../Style/Images/Infos/Event-29.jpg';
 import ImageProjectC7 from '../../Style/Images/Infos/Event-30.jpg';
@@ -61,7 +61,8 @@ function Pharmacie1({ }) {
             <div className='Article_4'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Fix Challenge            </h1>
+                        Fix Challenge
+                    </h1>
                     <h3 className='project_description'>
                         | 15 Juillet , 2023 |
                     </h3>
@@ -84,7 +85,12 @@ function Pharmacie1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 5' />
                     </div>
-
+                    <p >
+                        La Cheffe de Mission Adjointe a accueilli à l'Ambassade l'équipe talentueuse de la start-up 404 Digital sn de Thiès pour discuter de leurs activités dans le domaine du digital et du numérique et des possibilités de coopération mutuelle.
+                    </p>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC4} width='40%' alt='  Pharmacie Design - 5' />
+                    </div>
                 </div>
             </div>
         </Fragment>

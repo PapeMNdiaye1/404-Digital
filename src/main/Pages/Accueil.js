@@ -84,7 +84,7 @@ function Accueil({ GetImageToApp }) {
                 <Link className='the_link' to={'./Services'}>
                     <div className='one-card'>
                         <div className='card-cover card-cover-1'>
-                            gy
+
                         </div>
                         <div className='title-of-card'>
                             RÉALITÉ AUGMENTÉE
@@ -318,39 +318,7 @@ function Slider({ giveSliderKey, title, date, theKey }) {
         </div>
     );
 }
-//!###############################################################
-function OneGalerieElement({ giveImageId, title, theKey, image, date, link }) {
 
-    const clickOnImage = (e) => {
-        let AccueilContainer = document.querySelector(".App_container")
-        AccueilContainer.scrollTop = 0;
-        giveImageId(image, title, date, link)
-    }
-
-    return (
-        <div className='one_galerie_element'>
-            <img src={image} width='100%' alt={title} />
-            <div className='one_galerie_element_hover'>
-                <div className='iner_container' >
-
-                    <Link onClick={clickOnImage} to={'/ARTICLES'}>
-                        <div
-                            className='Icon-to-click-on'>
-                            <ion-icon name="expand-sharp"></ion-icon>
-                        </div>
-                    </Link >
-
-                    <Link className='titre' to={link}>
-                        {title}
-                    </Link>
-                    <p className='date'>
-                        {date}
-                    </p>
-                </div>
-            </div>
-        </div>
-    );
-}
 //!###############################################################
 function OneBigProject({ color, title, description, side, textcolor, theKey, image, link, The_Experience, The_Experience_Link }) {
     const [TheSide, setTheSide] = useState('');
@@ -527,7 +495,6 @@ function TheFooter({ }) {
                 <div className='contact_elemant '>Tel: 77 727 86 55</div>
                 <div className='contact_elemant '>Tel: 77 493 89 89</div>
             </div>
-
             <div className='network_container'>
 
                 <a href="https://www.instagram.com/404_digital/" target="_blank">
