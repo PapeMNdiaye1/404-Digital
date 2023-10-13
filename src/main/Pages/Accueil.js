@@ -322,7 +322,6 @@ function Slider({ giveSliderKey, title, date, theKey }) {
 //!###############################################################
 function OneBigProject({ color, title, description, side, textcolor, theKey, image, link, The_Experience, The_Experience_Link }) {
     const [TheSide, setTheSide] = useState('');
-
     useEffect(() => {
         setTheSide(side)
         let TheSidedProject = document.querySelectorAll('.One_Project_In_Home')
@@ -411,7 +410,6 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             <Link className='the_link'
                                 style={{
                                     color: textcolor,
-                                    // border: `.1em solid ${textcolor}`
                                 }} to={link}>
 
                                 Voir plus  <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -420,7 +418,6 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                                 <a
                                     style={{
                                         color: textcolor,
-                                        // border: `.1em solid ${textcolor}`
                                     }}
                                     className='the_link' href={The_Experience_Link} target="_blank" >
 

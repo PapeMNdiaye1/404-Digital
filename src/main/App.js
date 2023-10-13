@@ -2,14 +2,10 @@ import './Style/Style.css';
 import React, { useState, Suspense } from 'react';
 import { Routes, BrowserRouter, Route, } from "react-router-dom";
 
-
 import { Accueil } from './Pages/Accueil';
 import { TheFooter } from './Pages/Accueil';
 import Articles from './Pages/Articles';
 import Service from './Pages/Service';
-
-
-
 
 const TopBare = React.lazy(() => import('./TopBare'));
 const Travaux = React.lazy(() => import('./Pages/Travaux'));
@@ -30,6 +26,7 @@ function TheLoader() {
 const Interior1 = React.lazy(() => import('./Pages/Projects/Interior_Design'));
 const SmallHouse1 = React.lazy(() => import('./Pages/Projects/Small_House_1'));
 const Hangar1 = React.lazy(() => import('./Pages/Projects/Hangar_1'));
+
 const Touba = React.lazy(() => import('./Pages/Projects/Touba'));
 const ProduitsA = React.lazy(() => import('./Pages/Projects/ProduitsA'));
 const ProduitsB = React.lazy(() => import('./Pages/Projects/ProduitsB'));
